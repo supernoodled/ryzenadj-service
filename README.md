@@ -1,9 +1,11 @@
 # ryzenadj-service
 
-a service to automatically run a autostart.bat file for https://github.com/FlyGoat/RyzenAdj/releases
+a service written in c# to automatically run a autostart.bat file for https://github.com/FlyGoat/RyzenAdj/releases
 
 this is to avoid the annoying reset issue where the stapm limits would just reset back to OEM defaults.
 it runs the file every minute, and at only uses 3MB ram and 0.5% cpu when active. 
+
+this also automatically starts up on boot.
 
 i have included examples and other needed files in releases
 
